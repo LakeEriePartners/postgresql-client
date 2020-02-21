@@ -1,2 +1,3 @@
 \setenv LESS '-S'
 \setenv PAGER less
+\setenv EDITOR vim
