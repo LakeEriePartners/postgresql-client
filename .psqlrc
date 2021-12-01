@@ -1,3 +1,13 @@
-\setenv LESS '-S'
-\setenv PAGER less
+\set QUIET 1
+\pset linestyle unicode
+\pset border 2
+\setenv PAGER 'pspg -bX --no-mouse'
+\pset null ∅
+\unset QUIET
+
+-- Switch pagers with :x and :xx commands
+\set x '\\setenv PAGER less'
+\set xx '\\setenv PAGER \'pspg -bX --no-mouse\''
+
 \setenv EDITOR vim
+\setenv LESS '-S'
